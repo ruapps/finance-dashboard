@@ -60,7 +60,7 @@ const Sidebar = () => {
         }}
       >
         <List>
-          <ListItemButton onClick={() => navigate("/")}>
+          <ListItemButton onClick={() => navigate("/finance-dashboard")}>
             <ListItemText primary="Dashboard" />
           </ListItemButton>
 
